@@ -13,8 +13,13 @@ public class Java21 {
 //        for (int i = 0; i <= 2000; i++) {
 //            System.out.println(i+ "Em hua se khong the nua");
 //        }
-        for (int i = 2000; i > 0; i--) {
-            System.out.println(i+ "Em hua se khong the nua");
+//        for (int i = 10; i > 0; --i) {
+//            System.out.println(i+ "Em hua se khong the nua");
+//        }
+        int i = 2;
+        for(int j = 1 ; j<=10 ; j++ ){
+            System.out.println(i + " x " + j + " = " + (i*j));
         }
+        System.out.println("-----");
     }
 }
